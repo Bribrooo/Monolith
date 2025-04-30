@@ -1,0 +1,44 @@
+# Author Info
+# GitHub: BriBrooo
+# Discord: bribrooo
+
+
+# Shuttle Notes:
+# A small-to-medium ship designed for chemist crews from 1 to 4 players. Ideally
+# them being 2 chemists, 2 botanists.
+
+- type: vessel
+  id: Fluxia
+  parent: BaseVessel
+  name: DME Fluxia
+  description: A ship concentrated in the creation of reagents in support to medical shuttles.
+  price: 46000
+  category: Medium
+  group: Medical
+  shuttlePath: /Maps/_Mono/Shuttles/fluxia.yml
+  guidebookPage: ShipyardFluxia
+  class:
+  - Civilian
+  - Medical
+  engine:
+  - Uranium
+
+- type: gameMap
+  id: Fluxia
+  mapName: 'DME Fluxia'
+  mapPath: /Maps/_Mono/Shuttles/fluxia.yml
+  minPlayers: 0
+  stations:
+    Fluxia:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Fluxia CIV{1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          availableJobs:
+            Contractor: [ 0, 0 ]
+            Pilot: [ 0, 0 ]
+            Mercenary: [ 0, 0 ]

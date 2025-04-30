@@ -1,0 +1,113 @@
+<Document>
+  # FLUXIA-CLASS CHEMISTRY SHUTTLE
+  <Box>
+  <GuideEntityEmbed Entity="ChemMaster"/>
+  <GuideEntityEmbed Entity="ChemDispenser"/>
+  <GuideEntityEmbed Entity="VendingMachineChemicals"/>
+  <GuideEntityEmbed Entity="PosterLegitPeriodicTable"/>
+  </Box>
+    [color=#a4885c]Ship Size:[/color] Medium
+
+	[color=#a4885c]Recommended Crew:[/color] 2-4
+
+	[color=#a4885c]Power Gen Type:[/color] Uranium
+
+	[color=#a4885c]Expeditions:[/color] None
+
+	[color=#a4885c]IFF Console:[/color] None
+
+  "A small-to-medium, chemistry-focused shuttle for 2 chemists, with their own laboratories, and a garden with botanical supplies."
+
+  # PREFLIGHT CHECKLIST
+
+  ## 1. Power supply
+
+  ## 1.1. Battery units
+  <Box>
+  <GuideEntityEmbed Entity="SMESBasic"/>
+  <GuideEntityEmbed Entity="SubstationBasic"/>
+  <GuideEntityEmbed Entity="APCBasic"/>
+  </Box>
+
+  - Check that the S.U.P.E.R.P.A.C.M.A.N. generator unit is anchored to the floor.
+  - Check that the SMES unit is anchored to the floor.
+  - Check that the substation unit is anchored to the floor.
+  - Check that the main APC unit's Main Breaker is toggled on.
+  - Check the APC unit's current Load* (W).
+
+  ## 1.2. S.U.P.E.R.P.A.C.M.A.N. generator unit.
+  <Box>
+  <GuideEntityEmbed Entity="PortableGeneratorSuperPacmanShuttle"/>
+  <GuideEntityEmbed Entity="FuelUranium"/>
+  </Box>
+
+  - Check that the generator unit is properly anchored.
+  - Check that the generator unit is connected to the cable terminal of your SMES via HV.
+  - Check the fuel remaining of the generator unit.
+  - Set the generator unit output power to 22 kW.
+  - Enable Injection.
+
+  ## 2. Atmospherics
+
+  ## 2.1. Distribution Loop
+  <Box>
+  <GuideEntityEmbed Entity="OxygenCanister"/>
+  <GuideEntityEmbed Entity="NitrogenCanister"/>
+  <GuideEntityEmbed Entity="GasMixer"/>
+  <GuideEntityEmbed Entity="GasPressurePump"/>
+  </Box>
+
+  - Ensure that a air canister is wrenched to the connector port.
+  - Check that the air canister is of a suitable atmos mixture (~21% oxygen, ~79% nitrogen).
+  - Enable the gas pump into the distribution system.
+
+  ## 3. Other checks
+  <Box>
+  <GuideEntityEmbed Entity="Gyroscope"/>
+  <GuideEntityEmbed Entity="GravityGeneratorMini"/>
+  </Box>
+
+  - Check that the gyroscope is anchored, powered, and enabled.
+  - Check that the mini gravity generator is anchored, powered, and enabled.
+
+  ## Sidenotes
+
+  * - Fluxia-class chemistry shuttles are equipped with one APC unit that can be used to appraise the ship's total power consumption.Unmodified Argent-class ship requires ~25.7 kW of power to remain operational.
+
+  # SHUTTLE DETAILS
+
+  ## 1. Overall
+
+  The shuttle has integral pressure, fire, air, resistance; being [color=red]equipped with fire doors, alarms and safety equipment[/color], but also shutters in case of manipulation of hazardous chemicals, this shuttle was built with the word safety in front of everything.
+
+  ## 2. Top of the shuttle
+
+  ## 2.1. Cockpit
+  
+  Armed with a [color=#334E6D]fax machine[/color], [color=#334E6D]the shuttle console[/color], [color=#334E6D] the station records[/color], paper, a pen and even a cell recharger, this cockpit is not to be mixed up with an office cubicle. A [color=#334E6D]holopad[/color] as well as two racks and a chair are present too.
+
+  ## 2.2. Power Closet
+
+  Powered with two S.U.P.E.R.P.A.C.M.A.N.-type portable generators, a substation but also a SMES unit, in order to achieve a maximum delay between power outage, this shuttle is eco-friendly with its uranium-fueled power.
+
+  ## 2.3. Safety Closet
+
+  This closet is the home to your air distribution, but also houses crude cleaning equipement. It also has a fire closet and a radiation suit closet for any hazardous chemical incidents.
+
+  ## 2.4. Hall
+
+  In the hall of the shuttle, you can find your emergency equipments: fire extinguisher, defibrillator, APC, but also a water cooler so you can hydrate in an emergency!
+
+  ## 3. Chemistry Labs
+
+  Two opposed chemistry labs, entirely independant on their own, for those extremely focus crews. They are both equipped with a ChemMaster, a filled ChemDispenser, hotplate, grinder, electrolysis, a filled locker, a sink and a drain. It is also equipped with paper and a chair, as well as the periodic table just to be safe.
+
+  ## 4. Garden
+
+  Equipped with seven trays, this garden allows any hydroponic dream you might have. This garden is also supplied with 3 buckets, a water tank, a NutriMax vendor, HyDrobe vendor, a MegaSeed Servitor, a seed extractor, a filled locker of botanist supplies, and a grinder alongside a beaker.
+
+  ## 5. Dock
+
+  In the dock, you will find, two EVA suits, two emergency internal closets, and two spots reserved for crates/canisters.
+
+</Document>

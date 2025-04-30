@@ -6,6 +6,7 @@
   children:
   - ShipyardArgent
   - ShipyardSabine
+  - ShipyardFluxia
 
 - type: guideEntry
   id: ShipyardArgent
@@ -16,3 +17,8 @@
   id: ShipyardSabine
   name: guide-entry-shipyard-sabine
   text: "/ServerInfo/_Mono/Guidebook/Shipyard/Sabine.xml"
+
+- type: guideEntry
+  id: ShipyardFluxia
+  name: guide-entry-shipyard-fluxia
+  text: "/ServerInfo/_Mono/Guidebook/Shipyard/Fluxia.xml"
