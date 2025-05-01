@@ -16,7 +16,7 @@
 
 	[color=#a4885c]IFF Console:[/color] None
 
-  "A small-to-medium, chemistry-focused shuttle for 2 chemists, with their own laboratories, and a garden with botanical supplies."
+  "A small-to-medium, chemistry-focused shuttle for 2 chemists, with their laboratories, and a garden with botanical supplies."
 
   # PREFLIGHT CHECKLIST
 
@@ -43,7 +43,7 @@
 
   - Check that the generator unit is properly anchored.
   - Check that the generator unit is connected to the cable terminal of your SMES via HV.
-  - Check the fuel remaining of the generator unit.
+  - Check the fuel remaining in the generator unit.
   - Set the generator unit output power to 22 kW.
   - Enable Injection.
 
@@ -57,7 +57,7 @@
   <GuideEntityEmbed Entity="GasPressurePump"/>
   </Box>
 
-  - Ensure that a air canister is wrenched to the connector port.
+  - Ensure that an air canister is connected to the connector port.
   - Check that the air canister is of a suitable atmos mixture (~21% oxygen, ~79% nitrogen).
   - Enable the gas pump into the distribution system.
 
@@ -72,7 +72,7 @@
 
   ## Sidenotes
 
-  * - Fluxia-class chemistry shuttles are equipped with one APC unit that can be used to appraise the ship's total power consumption.Unmodified Argent-class ship requires ~25.7 kW of power to remain operational.
+  * - Fluxia-class chemistry shuttles are equipped with one APC unit that can be used to appraise the ship's total power consumption. An unmodified Fluxia-class ship requires ~25.7 kW of power to remain operational.
 
   # SHUTTLE DETAILS
 
