@@ -1,0 +1,43 @@
+# Author Info
+# GitHub: BriBrooo
+# Discord: bribrooo
+
+# Shuttle Notes:
+# A medium ship designed for 1-3 players.
+
+- type: vessel
+  id: Saporum
+  parent: BaseVessel
+  name: DME Saporum
+  description: A cozy efficient diner vessel with its own garden and storage unit.
+  price: 50000
+  category: Medium
+  group: Shipyard
+  shuttlePath: /Maps/_Mono/Shuttles/saporum.yml
+  guidebookPage: ShipyardSaporum
+  class:
+  - Civilian
+  - Kitchen
+  - Botany
+  engine:
+  - Uranium
+
+- type: gameMap
+  id: Saporum
+  mapName: 'DME Saporum'
+  mapPath: /Maps/_Mono/Shuttles/saporum.yml
+  minPlayers: 0
+  stations:
+    Saporum:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Saporum CIV{1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          availableJobs:
+            Contractor: [ 0, 0 ]
+            Pilot: [ 0, 0 ]
+            Mercenary: [ 0, 0 ]
