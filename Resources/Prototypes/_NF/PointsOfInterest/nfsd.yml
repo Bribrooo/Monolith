@@ -19,8 +19,8 @@
   addComponents:
   - type: IFF
     color: "#047abd"
-  - type: ProtectedGrid
-    preventEmpEvents: true
+    flags: [HideLabel]
+    readOnly: true # mono
 
 - type: gameMap
   id: Nfsd
